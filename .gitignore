@@ -1,0 +1,183 @@
+# .gitignore for ASP.NET Core projects
+
+# Visual Studio
+.vscode/
+.vs/
+.vscode/**/*
+.vs/**/*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.exe
+*.cache
+
+# Auto-generated files
+*.dbmdl
+*.opendb
+*.msscci
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Roslyn generated files
+*.ide*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Configuration files
+appsettings.*.json
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Serverless
+.local/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Visual Studio Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows 8/10 store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_StoreConfig.xml
+
+# Windows shortcut files
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows 8/10 store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_StoreConfig.xml
+
+# Windows shortcut files
+*.lnk
+
+# Local history for Visual Studio
+.localhistory
+
+# Linux/Mac temporary files
+._*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Google Drive plugin files
+*.gsheet
+*.gslides
+*.gdraw
+*.gtable
+
+# Microsoft Azure Web Apps
+[wwwroot]/**
+
+# Microsoft Azure WebJobs
+*.azurejobs
+azurejobs/
+jenkins/workspace/
+
+# End of file
