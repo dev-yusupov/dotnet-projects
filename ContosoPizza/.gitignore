@@ -181,3 +181,5 @@ azurejobs/
 jenkins/workspace/
 
 # End of file
+*.db
+obj/

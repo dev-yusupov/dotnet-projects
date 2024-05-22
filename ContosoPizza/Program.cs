@@ -1,3 +1,4 @@
+using ContosoPizza.Data;
 using ContosoPizza.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddSqlite<PizzaContext>("Data Source=master.db");
 
 builder.Services.AddScoped<PizzaService>();
 

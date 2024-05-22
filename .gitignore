@@ -19,6 +19,9 @@
 
 *.exe
 *.cache
+*.db
+
+obj/
 
 # Auto-generated files
 *.dbmdl
