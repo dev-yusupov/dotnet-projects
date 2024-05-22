@@ -21,6 +21,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+app.CreateDbIfNotExists();
+
 app.MapControllers();
 
 app.MapGet("/", () => @"Contoso Pizza management API. Navigate to /swagger to open the Swagger test UI.");
